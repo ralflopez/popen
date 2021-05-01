@@ -5,7 +5,9 @@ export default function Layout({ children }) {
     return (
         <>
             <Meta />
-            { children }
+            <div className="bg-gray-900">
+                { children }
+            </div>
         </>
     )
 }
